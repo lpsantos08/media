@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: yellow;
   color: #333;
 }
 
@@ -32,7 +32,7 @@ main {
 /* Tablet (até 768px) */
 @media (max-width: 768px) {
   body {
-    background-color: #ffe082;
+    background-color: orange;
   }
 
   .box {
@@ -45,7 +45,7 @@ main {
 /* Celular (até 480px) */
 @media (max-width: 480px) {
   body {
-    background-color: #81d4fa;
+    background-color: blue;
   }
 
   .box {
