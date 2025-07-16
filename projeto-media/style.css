@@ -1,0 +1,60 @@
+/* Estilo base (desktop) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: #4CAF50;
+  margin: 20px auto;
+  line-height: 200px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Tablet (até 768px) */
+@media (max-width: 768px) {
+  body {
+    background-color: #ffe082;
+  }
+
+  .box {
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+  }
+}
+
+/* Celular (até 480px) */
+@media (max-width: 480px) {
+  body {
+    background-color: #81d4fa;
+  }
+
+  .box {
+    width: 90%;
+    height: 120px;
+    font-size: 18px;
+  }
+
+  header, footer {
+    font-size: 14px;
+  }
+}
